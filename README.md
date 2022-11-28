@@ -1,5 +1,6 @@
 ## このリポジトリについて
 大学の Wi-Fi で git clone や git push できるようにするための手順（備忘録）です．</br>
+一番下のその他の設定が必要になります．</br>
 (2022/11/29 現在)
 
 ***
@@ -15,7 +16,7 @@ ssh-keygen コマンド実行後，いろいろ聞かれるがすべて Enter �
 .ssh の中身を確認する．
 ```
 $ cd ~/.ssh/
-$ ls
+$ ls．
 id_rsa  id_rsa.pub  known_hosts
 ```
 中身を確認したら config ファイルを作る．

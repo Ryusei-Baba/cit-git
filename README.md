@@ -1,6 +1,6 @@
 ## このリポジトリについて
 大学の Wi-Fi で git clone や git push できるようにするための手順（備忘録）です．</br>
-(2022/11/29現在)
+(2022/11/29 現在)
 
 ***
 ## STEP0 準備（一度やれば良い）
@@ -44,7 +44,7 @@ Host github.com
 
 ***
 ## その他の設定
-GitHub へ鍵の登録（本当はこっちが先）をする方法．</br>
+GitHub への鍵の登録をする方法．（本当はこっちが先）</br>
 STEP0 完了後．．．
 ```
 $ cd ~/.ssh/
@@ -52,6 +52,6 @@ $ ls
 id_rsa  id_rsa.pub  known_hosts
 $ cat id_rsa.pub
 ```
-cat id_rsa.pub で出てきた文字をすべてコピーする．</br>
-コピーしたものを以下の手順で保存する．</br>
+1. cat id_rsa.pub で出てきた文字をすべてコピーする．</br>
+2．コピーしたものを以下の手順で保存する．</br>
 GitHub にログイン → 右上のアイコンをクリック → settings を選択 → SSH and GPG keys を選択 → 緑の New SSH key をクリック → Title を適当に決め，Key のところに貼り付ける． → Add SSH key

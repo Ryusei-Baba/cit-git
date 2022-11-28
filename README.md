@@ -44,7 +44,7 @@ Host github.com
 
 ***
 ## その他の設定
-GitHub への鍵の登録をする方法．（本当はこっちが先）</br>
+GitHub への鍵の登録をする方法．</br>
 STEP0 完了後．．．
 ```
 $ cd ~/.ssh/
@@ -52,6 +52,7 @@ $ ls
 id_rsa  id_rsa.pub  known_hosts
 $ cat id_rsa.pub
 ```
+</br>
 1. cat id_rsa.pub で出てきた文字をすべてコピーする．</br>
 2．コピーしたものを以下の手順で保存する．</br>
 GitHub にログイン → 右上のアイコンをクリック → settings を選択 → SSH and GPG keys を選択 → 緑の New SSH key をクリック → Title を適当に決め，Key のところに貼り付ける． → Add SSH key

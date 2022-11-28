@@ -1,5 +1,6 @@
 ## このリポジトリについて
-大学の Wi-Fi で git clone や git push できるようにするための手順（備忘録）です．
+大学の Wi-Fi で git clone や git push できるようにするための手順（備忘録）です．</br>
+(2022/11/29現在)
 
 ***
 ## STEP0 準備（一度やれば良い）
@@ -21,6 +22,8 @@ id_rsa  id_rsa.pub  known_hosts
 ```
 (cd ~/.ssh/)
 $ mkdir config
+$ ls
+config id_rsa  id_rsa.pub  known_hosts
 ```
 
 ***
@@ -40,13 +43,13 @@ Host github.com
 適当に git clone や git push をしてみる．
 
 ***
-## 番外編（本当はこっちが先）
-ssh で git clone をする方法．</br>
+## その他の設定
+GitHub へ鍵の登録（本当はこっちが先）をする方法．</br>
 STEP0 完了後．．．
 ```
 $ cd ~/.ssh/
 $ ls
-config id_rsa  id_rsa.pub  known_hosts
+id_rsa  id_rsa.pub  known_hosts
 $ cat id_rsa.pub
 ```
 cat id_rsa.pub で出てきた文字をすべてコピーする．</br>

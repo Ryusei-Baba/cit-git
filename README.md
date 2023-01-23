@@ -38,6 +38,31 @@ Host github.com
 
 ***
 ## その他の設定
+git のインストール
+```
+$ sudo apt install git
+```
+名前とメールアドレス登録
+```
+$ git config --global user.name "Abcd Efjk"
+$ git config --global user.email "xxxx@xxx.com"
+```
+エディタの登録
+```
+$ git config --global core.editor vim
+```
+確認コマンド
+```
+$ cat .gitconfig
+```
+```
+[user]
+name = Abcd Efjk
+email = xxxx@xxx.com
+[core]
+editor = vim
+```
+---
 GitHub への鍵の登録をする方法．</br>
 STEP0 完了後．．．
 ```

@@ -19,17 +19,10 @@ $ cd ~/.ssh/
 $ ls
 id_rsa  id_rsa.pub  known_hosts
 ```
-中身を確認したら config ファイルを作る．
-```
-(cd ~/.ssh/)
-$ mkdir config
-$ ls
-config id_rsa  id_rsa.pub  known_hosts
-```
 
 ***
 ## STEP2
-config ファイルを立ち上げ，以下のコードをコピペして貼り付ける．（人によっては，id_rsa の部分を変える必要がある．）
+config ファイルを vim 等で作り，以下のコードをコピペして貼り付ける．（人によっては，id_rsa の部分を変える必要がある．）
 ```
 $ vim config
 ```
